@@ -1,3 +1,7 @@
 from django.contrib import admin
+from transit.models import Stop
 
-# Register your models here.
+
+@admin.register(Stop)
+class StopAdmin(admin.ModelAdmin):
+    pass
