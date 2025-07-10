@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'transit.apps.TransitConfig',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [

@@ -4,17 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="947a2e28-fd0c-46d2-a32a-ad904b034a93" name="Changes" comment="Создание модели остановки">
+    <list default="true" id="947a2e28-fd0c-46d2-a32a-ad904b034a93" name="Changes" comment="Создание модели маршрута">
+      <change afterPath="$PROJECT_DIR$/.idea/easycode.ignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/easycode/codebase-v2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/krdtransit/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/krdtransit/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/krdtransit/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/krdtransit/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/transit/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/transit/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transit/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transit/migrations/0002_alter_stop_transport_types.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transit/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/transit/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/transit/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/transit/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/transit/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/transit/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transit/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/transit/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,6 +54,9 @@
   "associatedIndex": 1
 }]]></component>
   <component name="ProjectId" id="2zV1KVGQQ8IvVgQLV9TkiuT4mI0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,15 +69,33 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunAnythingCache">
+    <myKeys>
+      <visibility group="Grunt" flag="true" />
+      <visibility group="Gulp" flag="true" />
+      <visibility group="HTTP Requests" flag="true" />
+      <visibility group="Node.js" flag="true" />
+      <visibility group="Recent projects" flag="true" />
+      <visibility group="Run Python file" flag="true" />
+      <visibility group="Run conda command" flag="true" />
+      <visibility group="Run configurations" flag="true" />
+      <visibility group="Run pip command" flag="true" />
+      <visibility group="npm" flag="true" />
+      <visibility group="yarn" flag="true" />
+    </myKeys>
+  </component>
   <component name="RunManager">
     <configuration name="krdtransit" type="Python.DjangoServer" factoryName="Django server">
       <module name="krdtransit" />
@@ -106,7 +138,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751801363412</updated>
-      <workItem from="1751801364711" duration="5473000" />
+      <workItem from="1751801364711" duration="10749000" />
     </task>
     <task id="LOCAL-00001" summary="Создание Django-проекта">
       <option name="closed" value="true" />
@@ -124,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751810011814</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Создание модели маршрута">
+      <option name="closed" value="true" />
+      <created>1751981393842</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1751981393842</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +173,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Создание Django-проекта" />
     <MESSAGE value="Создание модели остановки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создание модели остановки" />
+    <MESSAGE value="Создание модели маршрута" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создание модели маршрута" />
   </component>
 </project>
